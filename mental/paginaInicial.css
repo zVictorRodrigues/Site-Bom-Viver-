@@ -1,0 +1,137 @@
+/* Reset de margens e preenchimentos para o corpo e cabeçalho */
+body {
+    background-image: url('paisahem.jpg');
+    background-size: cover; /* Para cobrir todo o corpo */
+    background-attachment: fixed; /* Para fixar a imagem de fundo no lugar ao rolar */
+}
+
+
+/* Estilizando o cabeçalho */
+header {
+    justify-content: space-between; /* Alinhamento horizontal espaçado */
+    align-items: center; /* Alinhamento vertical centralizado */
+    padding: 10px 20px; /* Preenchimento interno */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979); /* Adicione uma sombra escura atrás do texto */
+}
+
+/* Estilizando o menu de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    display: flex; /* Layout flexível para a lista de navegação */
+    justify-content: flex-end; /* Alinhamento horizontal centralizado */
+    align-items: center; /* Alinhamento vertical centralizado */
+    padding: 0; /* Remove preenchimento interno */
+    margin-right: 80px; /* Adicione um pequeno recuo para a direita */
+    
+    
+}
+
+
+nav li {
+    margin: 0 20px; /* Margens dos itens da lista de navegação */
+}
+
+/* os botões de navegação */
+nav a {
+    text-decoration: none; /* Remove a decoração de link (sublinhado) */
+    color: #ffffff; /* Cor do texto dos links no menu de navegação */
+    font-size: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979); /* Adicione uma sombra escura atrás do texto */
+    
+}
+
+/* Estilizando o título "Bom Viver - Saúde Mental" */
+header h1 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin: 0; /* Remove margem */
+}
+
+/* Estilizando a seção "introducao" */
+.introducao {
+   color: white;
+    display: flex; /* Layout flexível para a seção */
+    justify-content: center; /* Alinhamento horizontal centralizado */
+    align-items: flex-start; /* Alinhamento vertical no início */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    padding: 40px; /* Preenchimento interno da seção */
+}
+
+.introducao-texto {
+    max-width: 600px; /* Largura máxima para o texto de introdução */
+    margin: 0; /* Remova a margem para alinhar à esquerda */
+}
+
+/* Texto de introdução, com o bem vindo */
+.introducao-texto h2,
+.introducao-texto p {
+    text-align: left; /* Alinhe o texto à esquerda */
+    margin-left: 60px; /* Adicione um pequeno recuo para a direita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979); /* Adicione uma sombra escura atrás do texto */
+    font-size: 30px;
+
+}
+
+/* Como podemos ajudar? */
+.introducao-texto h3 {
+    text-align: left; /* Alinhe o título à esquerda */
+    margin-left: 60px; /* Adicione um pequeno recuo para a direita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979); /* Adicione uma sombra escura atrás do texto */
+}
+
+
+
+.introducao-texto p {
+    font-size: 25px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 30px; /* Margem inferior */
+}
+
+.introducao-texto ul {
+    list-style: disc; /* Estilo da lista com marcadores */
+    padding-left: 10px; /* Recuo à esquerda da lista */
+}
+
+.introducao-texto ul li {
+    font-size: 20px; /* Tamanho da fonte dos itens da lista */
+    margin-bottom: 10px; /* Margem inferior dos itens da lista */
+}
+
+/* Estilizando os botões de serviço */
+.servico-btn a {
+    text-decoration: none; /* Remove a decoração de link (sublinhado) */
+}
+
+.servico-btn {
+    display: block; /* Transforma os botões em elementos de bloco */
+    background-color: #a5cbf3; /* Cor de fundo dos botões */
+    color: #000000 !important; /* Cor do texto nos botões (importante) */
+    padding: 10px 20px; /* Preenchimento interno dos botões */
+    margin: 10px; /* Margem entre os botões */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Ícone do cursor ao passar sobre os botões */
+    transition: transform 0.2s ease; /* Efeito de levantamento ao passar o mouse */
+    border-radius: 10px; /* Bordas arredondadas dos botões */
+    margin-left: 50px;
+}
+
+.servico-btn:hover {
+    transform: translateY(-5px); /* Efeito de levantamento quando o mouse passa sobre os botões */
+}
+
+.servico-btn {
+    padding: 15px 30px; /* Aumente os valores de padding conforme necessário */
+    width: auto; /* Ajuste a largura conforme necessário */
+}
+
+a {
+    text-decoration: none;
+  }
+
+  mark {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    padding: 5px; /* Preenchimento para destacar a palavra */
+    border-radius: 5px; /* Bordas arredondadas dos botões */
+
+}
+

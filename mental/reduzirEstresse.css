@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    background-size: cover; /* Para cobrir todo o corpo */
+    background-attachment: fixed; /* Para fixar a imagem de fundo no lugar ao rolar */
+}
+
+
+
+/* Texto Voltar */
+  a {
+    text-decoration: none;
+   
+  }
+
+/* Estilizando o botão de voltar */
+.voltar-btn {
+    position: fixed;
+    bottom: 20px; /* Posicione no canto esquerdo da parte inferior */
+    left: 20px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    padding: 10px 20px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Ícone do cursor ao passar sobre o botão */
+    border-radius: 10%; /* Bordas arredondadas para criar uma aparência de botão circular */
+    transform: scale(1); /* Escala inicial do botão */
+    transition: transform 0.2s ease; /* Efeito de crescimento suave */
+
+}
+
+/* Quando o mouse passa sobre o botão, ele cresce */
+.voltar-btn:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
+.conteudo {
+  text-align: center;
+  background-color: #fff; /* Cor de fundo do conteúdo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  font-size: 15px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.conteudo p {
+  font-size: 20px;
+}
+
+.conteudo img {
+  display: block; /* Garante que a imagem se comporte como um bloco */
+  margin: 20px auto; /* Define margens para centralizar a imagem */
+  max-width: 100%; /* Garante que a imagem não exceda a largura da caixa de conteúdo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+#conteudo-da-pagina {
+  min-height: 100vh; /* Define a altura máxima como 100% da altura da janela do navegador */
+}
